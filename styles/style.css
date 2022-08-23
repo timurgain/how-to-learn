@@ -1,5 +1,9 @@
-header, section {
-  border: 2px solid red;
+header, main, footer {
+  border: 1px solid red;
+}
+
+section {
+  border: 1px dashed blueviolet;
 }
 
 .page {
@@ -42,11 +46,11 @@ header, section {
 }
 
 .description {
-
+  padding-top: 100px;
 }
 
 .digits {
-
+  padding: 100px 0;
 }
 
 .feynman {
@@ -55,8 +59,10 @@ header, section {
 
 .kaufman {
   background-color: #1f1f1f;
+  padding: 90px 0;
 }
 
 .footer {
   background-color: #1f1f1f;
+  padding: 60px 0 40px;
 }

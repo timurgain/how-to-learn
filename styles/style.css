@@ -7,7 +7,7 @@ h1, h2, h3, div, p, img {
   border: 1px dashed blueviolet;
 }
 
-/* Обнуление стандартных отступов текста */
+/* Обнулим стандартные отступы в тексте */
 p, h1, h2, h3 {
   padding: 0;
   margin: 0;
@@ -97,14 +97,6 @@ p, h1, h2, h3 {
   top: 64px;
   right: 0;
   z-index: 1;
-}
-
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .content {
@@ -209,12 +201,53 @@ p, h1, h2, h3 {
 }
 
 .feynman {
+  min-height: 890px;
+  padding-top: 100px;
   background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  position: relative;
+}
+
+.feynman__title {
+  margin: auto;
+  text-align: center;
+  width: 648px;
+  font-size: 120px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 51px;
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 .kaufman {
   background-color: #1f1f1f;
   padding: 90px 0;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .footer {

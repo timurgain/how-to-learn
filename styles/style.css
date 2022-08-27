@@ -8,7 +8,7 @@ h1, h2, h3, div, p, img, span, ul {
 } */
 
 /* Обнулим стандартные стили */
-p, h1, h2, h3 {
+p, h1, h2, h3, h4 {
   padding: 0;
   margin: 0;
 }

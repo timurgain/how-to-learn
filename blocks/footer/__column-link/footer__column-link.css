@@ -3,4 +3,12 @@
   font-weight: normal;
   line-height: 30px;
   color: white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  opacity: .7;
+  text-decoration: underline;
+  transition: opacity .3s ease-in;
 }

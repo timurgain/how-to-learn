@@ -2,5 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: left;
+  align-items: start;
   margin: 68px 0 0;
 }

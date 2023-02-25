@@ -4,6 +4,8 @@
 
 The project gives practice in web developing and shows productive ways of learning from successful people.
 
+[Click to view site on GitHub Pages](https://timurgain.github.io/how-to-learn/)
+
 ## Technologies
 
 - HTML5 and semantic tags;
